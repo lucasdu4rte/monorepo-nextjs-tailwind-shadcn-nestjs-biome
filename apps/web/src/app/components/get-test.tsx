@@ -14,7 +14,7 @@ const GetTest = () => {
   useEffect(() => {
     const fetchTest = async () => {
       try {
-        const response = await fetch("http://localhost:3001/test");
+        const response = await fetch("http://localhost:3333/");
         if (!response.ok) throw new Error("Failed to fetch data");
         const data: GetTestResponse = await response.json();
         setTimeout(() => {
