@@ -22,10 +22,9 @@ The monorepo is organized as follows:
   /api (Nest.js)
 
 /packages
-  /ui (shadcn component library with Tailwind CSS)
   /tsconfig (Shared configuration files such as Biome, Tailwind, and Turbopack)
   /types (Shared types)
-  /ui (Shared UI components and styles)
+  /ui (Shared UI components and styles using shadcn component library with TailwindCSS)
   /utils (Shared util methods)
 ```
 
