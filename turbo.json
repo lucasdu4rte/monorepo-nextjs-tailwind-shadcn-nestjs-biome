@@ -19,25 +19,9 @@
         "!.next/cache/**"
       ]
     },
-    "lint": {
-      "dependsOn": [
-        "^topo"
-      ]
-    },
-    "format": {
-      "dependsOn": [
-        "^topo"
-      ]
-    },
-    "lint:fix": {
-      "dependsOn": [
-        "^topo"
-      ]
-    },
-    "format:fix": {
-      "dependsOn": [
-        "^topo"
-      ]
+    "//#format-and-lint": {},
+    "//#format-and-lint:fix": {
+      "cache": false
     },
     "check-types": {},
     "dev": {

@@ -1,5 +1,10 @@
 {
   "extends": "@monorepo/tsconfig/utils.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+  },
   "include": [
     "**/*.ts",
   ],
